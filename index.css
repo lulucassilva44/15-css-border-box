@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid green;
+}
+.border-box
+ {
+    background-color: aqua;
+    box-sizing: border-box;
+ }
+
+ .noborder-box
+ {
+    background-color: red;
+ }
+
+ /* largura+padding+padding+border+border= largura total do elemento 
+    > 100 + 10 + 10 + 10 + 10 = 140
+ 
+ */
